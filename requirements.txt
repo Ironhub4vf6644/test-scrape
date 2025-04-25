@@ -1,0 +1,5 @@
+aiohttp
+beautifulsoup4==4.12.3
+playwright==1.42.0
+fake-useragent==1.2.1
+python-dotenv==1.0.1

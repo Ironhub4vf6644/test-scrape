@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  scraper-test:
+    build: .
+    container_name: scraper_test
+    volumes:
+      - ./:/app
+    command: python3 -u test_scraper.py
+    restart: unless-stopped
